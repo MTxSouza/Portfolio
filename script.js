@@ -1,5 +1,5 @@
 // Load career data.
-fetch("career.json").then(response => {
+fetch("data/career.json").then(response => {
     if (!response.ok) throw new Error("File not found.");
     return response.json();
 })
