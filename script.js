@@ -60,3 +60,89 @@ fetch("data/career.json").then(response => {
 .catch(error => {
     console.error("Fetch error: ", error.message);
 });
+
+
+// Load projects data.
+fetch("data/project.json").then(response => {
+    if (!response.ok) throw new Error("File not found.");
+    return response.json();
+})
+.then(data => {
+    const projectLength = data.data.length;
+    
+    // Get component to display projects.
+    const projectComp = document.getElementById("project");
+    for (let i = 1; i <= projectLength; i++) {
+        
+        // Get project data.
+        const projectData = data.data[i - 1];
+        const projectName = projectData.title;
+        const projectDesc = projectData.desc;
+        const projectLink = projectData.link
+
+        const projectImgList = projectData.images;
+        const projectImgLength = projectImgList.length;
+
+        const projectVideoList = projectData.videos;
+        const projectVideoLength = projectVideoList.length;
+
+        // Create block to display the project.
+        const projectBlock = document.createElement("div");
+        projectBlock.className = `projectBlock`;
+
+        const projectNameBlock = document.createElement("div");
+        const ul = document.createElement("ul");
+        const projectNameText = document.createElement("li");
+        const projectLinkText = document.createElement("a");
+
+        const projectDescBlock = document.createElement("div");
+        projectDescBlock.className = `projectDesc`;
+
+        // Set project content.
+        projectNameText.textContent = projectName;
+        projectLinkText.href = projectLink;
+        projectLinkText.target = "_blank"; // Open link in a new tab.
+        projectLinkText.appendChild(projectNameText);
+
+        ul.appendChild(projectLinkText);
+        projectNameBlock.appendChild(ul);
+        projectBlock.appendChild(projectNameBlock);
+
+        projectDescBlock.textContent = projectDesc;
+
+        if (projectImgLength > 0 || projectVideoLength > 0) {
+            // Create image elements for each project image.
+            if (projectImgLength > 0) {
+                const projectImgBlock = document.createElement("div");
+                for (let j = 0; j < projectImgLength; j++) {
+                    const projectImg = document.createElement("img");
+                    projectImg.src = projectImgList[j];
+                    projectImgBlock.appendChild(projectImg);
+                }
+                projectDescBlock.appendChild(projectImgBlock);
+                projectBlock.appendChild(projectDescBlock);
+            }
+    
+            // Create video elements for each project video.
+            if (projectVideoLength > 0) {
+                const projectVideoBlock = document.createElement("div");
+                for (let j = 0; j < projectVideoLength; j++) {
+                    const projectVideo = document.createElement("video");
+                    projectVideo.src = projectVideoList[j];
+                    projectVideo.controls = true;
+                    projectVideoBlock.appendChild(projectVideo);
+                }
+                projectDescBlock.appendChild(projectVideoBlock);
+                projectBlock.appendChild(projectDescBlock);
+            }
+        } else {
+            projectBlock.appendChild(projectDescBlock);
+        }
+
+        // Append the project block to the project component.
+        projectComp.appendChild(projectBlock);
+    }
+
+}).catch(error => {
+    console.error("Fetch error: ", error.message);
+});

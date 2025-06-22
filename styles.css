@@ -86,6 +86,7 @@ hr {
     box-shadow: 1px 1px 5px rgba(85, 85, 85, 0.5);
 }
 #roleInfo ul {
+    list-style-type: none;
     font-size: 22px;
     font-weight: 600;
 }
@@ -98,4 +99,31 @@ hr {
     /* background-color: royalblue; */
     margin-left: 40px;
     font-size: 15px;
+}
+
+.projectBlock {
+    /* background-color: rgb(240, 127, 127); */
+    display: flex;
+    padding-bottom: 30px;
+}
+.projectBlock ul {
+    /* background-color: blue; */
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: 600;
+    width: 200px;
+}
+.projectDesc {
+    /* background-color: aqua; */
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgb(36, 36, 36);
+}
+.projectDesc img {
+    padding-top: 10px;
+    height: 250px;
+}
+.projectDesc video {
+    padding-top: 10px;
+    height: 300px;
 }

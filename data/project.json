@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "title": "PromptableDeTR (Coming Soon...)",
+            "desc": "A deep learning model capable to localize multiple objects on an image given a text prompt as input.",
+            "link": "https://github.com/MTxSouza/PromptableDeTR",
+            "images": [
+                "https://raw.githubusercontent.com/MTxSouza/PromptableDeTR/main/figs/PromptableDeTR%20(Logo).png?token=GHSAT0AAAAAADFVN5PMWHWGSJ3TH7TGB3TO2CYJTNQ"
+            ],
+            "videos": []
+        },
+        {
+            "title": "Medium Article Generator",
+            "desc": "Simple LLM trained over a dataset of Medium articles. Given a title to the model, it generates text related to that topic.",
+            "link": "https://github.com/MTxSouza/MediumArticleGenerator",
+            "images": [],
+            "videos": [
+                "data/medium-article-generator.mp4"
+            ]
+        },
+        {
+            "title": "Credit Card Customer Segmentation",
+            "desc": "Customer segmentation based on credit card usage.",
+            "link": "https://github.com/MTxSouza/Credit-Card-Customer-Segmentation",
+            "images": [
+                "https://raw.githubusercontent.com/MTxSouza/Credit-Card-Customer-Segmentation/main/figures/std_scaler_model.png",
+                "https://raw.githubusercontent.com/MTxSouza/Credit-Card-Customer-Segmentation/main/figures/segmentation.png"
+            ],
+            "videos": []
+        },
+        {
+            "title": "Tumor Dectector",
+            "desc": "Tumor Detector consists in a neural network which has the capability to localize and segment tumors in tomography images.",
+            "link": "https://github.com/MTxSouza/Tumor-Detector-2.0",
+            "images": [
+                "https://raw.githubusercontent.com/MTxSouza/Tumor-Detector-2.0/main/docs/images/project_logo.png",
+                "https://raw.githubusercontent.com/MTxSouza/Tumor-Detector-2.0/main/docs/images/predictions_example.png"
+            ],
+            "videos": []
+        },
+        {
+            "title": "Temperature Prediction - Time Series",
+            "desc": "A neural net which be able to predict the Brazil's temperature along time. ",
+            "link": "https://github.com/MTxSouza/TemperaturePrediction-TimeSeries",
+            "images": [
+                "https://raw.githubusercontent.com/MTxSouza/TemperaturePrediction-TimeSeries/main/assets/time-series.png"
+            ],
+            "videos": []
+        }
+    ]
+}
