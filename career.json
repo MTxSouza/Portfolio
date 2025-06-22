@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "company": "SiDi",
+            "title": "Software Developer Mid-Level",
+            "desc": "I work on the development and training of state-of-the-art speech recognition models, and contribute to building tools that enhance team productivity and operational efficiency.",
+            "pic": "careerIcons/sidi.jpeg",
+            "date": {
+                "start": {
+                    "month": "Sep",
+                    "year": "2024"
+                }
+            }
+        },
+        {
+            "company": "Facens",
+            "title": "Postgraduation in Data Science",
+            "desc": "efneop ffdfd3d-qd",
+            "pic": "careerIcons/facens.png",
+            "date": {
+                "start": {
+                    "month": "Sep",
+                    "year": "2023"
+                }
+            }
+        },
+        {
+            "company": "IP-Facens",
+            "title": "Artificial Intelligence Analyst Entry-Level",
+            "desc": "Responsible for research and develop models for computer vision and nlp tasks, develop APIs to host models on cloud, develop both WEB and Desktop applications for artificial intelligence system, handling data for model training pipelines.",
+            "pic": "careerIcons/ip-facens.jpg",
+            "date": {
+                "start": {
+                    "month": "Jul",
+                    "year": "2023"
+                },
+                "end": {
+                    "month": "Ago",
+                    "year": "2024"
+                }
+            }
+        },
+        {
+            "company": "IP-Facens",
+            "title": "Artificial Intelligence Internship",
+            "desc": "I assist in computer vision and nlp system development.",
+            "pic": "careerIcons/ip-facens.jpg",
+            "date": {
+                "start": {
+                    "month": "Jan",
+                    "year": "2022"
+                },
+                "end": {
+                    "month": "Jun",
+                    "year": "2023"
+                }
+            }
+        },
+        {
+            "company": "Facens",
+            "title": "Bachelor of Technology in Data Science",
+            "desc": "Tech graduation in Data Science, with a focus on machine learning, data analysis and deep learning. Here I could improve my skills in Python and ML/DL development.",
+            "pic": "careerIcons/facens.png",
+            "date": {
+                "start": {
+                    "month": "Mar",
+                    "year": "2021"
+                },
+                "end": {
+                    "month": "Jul",
+                    "year": "2023"
+                }
+            }
+        }
+    ]
+}

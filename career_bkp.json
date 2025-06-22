@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "company": "SiDi",
+            "title": "Software Developer Mid-Level",
+            "desc": "",
+            "pic": "",
+            "date": {
+                "start": {
+                    "month": "Sep",
+                    "year": "2024"
+                }
+            }
+        },
+        {
+            "company": "Facens",
+            "title": "Especialization in Data Science.",
+            "desc": "",
+            "pic": "",
+            "date": {
+                "start": {
+                    "month": "Sep",
+                    "year": "2023"
+                }
+            }
+        },
+        {
+            "company": "IP-Facens",
+            "title": "Artificial Intelligence Analyst Entry-Level",
+            "desc": "",
+            "pic": "",
+            "date": {
+                "start": {
+                    "month": "Jul",
+                    "year": "2023"
+                },
+                "end": {
+                    "month": "Ago",
+                    "year": "2024"
+                }
+            }
+        },
+        {
+            "company": "IP-Facens",
+            "title": "Artificial Intelligence Internship",
+            "desc": "",
+            "pic": "",
+            "date": {
+                "start": {
+                    "month": "Jan",
+                    "year": "2022"
+                },
+                "end": {
+                    "month": "Jun",
+                    "year": "2023"
+                }
+            }
+        },
+        {
+            "company": "Facens",
+            "title": "Technology in Data Science",
+            "desc": "",
+            "pic": "carrerIcons/facens.png",
+            "date": {
+                "start": {
+                    "month": "Mar",
+                    "year": "2021"
+                },
+                "end": {
+                    "month": "Jul",
+                    "year": "2023"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: system-ui;
+}
+
+hr {
+    height: 1px;
+    padding: 0;
+    border: 0;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.mainFrame {
+    /* background-color: yellowgreen; */
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 80px;
+    width: 1000px;
+    height: 100%;
+    border-radius: 2%;
+}
+
+.header {
+    /* background-color: rgb(12, 38, 184); */
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.myPhoto {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 250px;
+}
+
+.aboutMe {
+    /* background-color: rgb(167, 63, 63); */
+    width: 100%;
+    margin-left: 40px;
+}
+
+.name {
+    /* background-color: rgb(70, 248, 239); */
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: normal;
+    display: flex;
+}
+
+.description {
+    /* background-color: rgb(255, 255, 255); */
+    margin-right: 100px;
+    color: rgb(65, 65, 65);
+    font-style: italic;
+    font-size: 14px;
+}
+
+.socials {
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+}
+.socials a img {
+    height: 40px;
+}
+
+.topic {
+    /* background-color: rgb(255, 0, 0); */
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.topic h1 {
+    margin-top: 20px;
+}
+
+.careerBlock {
+    /* background-color: rgb(209, 209, 209); */
+    display: flex;
+}
+.careerBlock img {
+    height: 50px;
+    margin: 20px;
+    border-radius: 20%;
+    box-shadow: 1px 1px 5px rgba(85, 85, 85, 0.5);
+}
+#roleInfo ul {
+    font-size: 22px;
+    font-weight: 600;
+}
+#roleInfo ul div {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(156, 156, 156);
+}
+#roleDesc {
+    /* background-color: royalblue; */
+    margin-left: 40px;
+    font-size: 15px;
+}
