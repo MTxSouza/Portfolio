@@ -5,7 +5,7 @@
             "desc": "A deep learning model capable to localize multiple objects on an image given a text prompt as input.",
             "link": "https://github.com/MTxSouza/PromptableDeTR",
             "images": [
-                "https://raw.githubusercontent.com/MTxSouza/PromptableDeTR/main/figs/PromptableDeTR%20(Logo).png?token=GHSAT0AAAAAADFVN5PMWHWGSJ3TH7TGB3TO2CYJTNQ"
+                "https://github.com/MTxSouza/PromptableDeTR/raw/main/figs/promptabledetr_logo.gif"
             ],
             "videos": []
         },
