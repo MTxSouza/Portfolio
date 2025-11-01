@@ -1,8 +1,8 @@
 {
     "data": [
         {
-            "title": "PromptableDeTR (Coming Soon...)",
-            "desc": "A deep learning model capable to localize multiple objects on an image given a text prompt as input.",
+            "title": "PromptableDeTR",
+            "desc": "A light weight deep learning model capable to localize multiple objects on an image given a text prompt as input.",
             "link": "https://github.com/MTxSouza/PromptableDeTR",
             "images": [
                 "https://github.com/MTxSouza/PromptableDeTR/raw/main/figs/promptabledetr_logo.gif"
