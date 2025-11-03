@@ -1,6 +1,13 @@
 {
     "data": [
         {
+            "title": "AI-Annotator (Comming soon...)",
+            "desc": "WEB tool used to annotate multiple data types for various deep learning tasks.",
+            "link": "https://github.com/MTxSouza/AI-Annotator",
+            "images": [],
+            "videos": []
+        },
+        {
             "title": "PromptableDeTR",
             "desc": "A light weight deep learning model capable to localize multiple objects on an image given a text prompt as input.",
             "link": "https://github.com/MTxSouza/PromptableDeTR",
