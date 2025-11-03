@@ -5,7 +5,12 @@
             "desc": "A light weight deep learning model capable to localize multiple objects on an image given a text prompt as input.",
             "link": "https://github.com/MTxSouza/PromptableDeTR",
             "images": [
-                "https://github.com/MTxSouza/PromptableDeTR/raw/main/figs/promptabledetr_logo.gif"
+                "https://github.com/MTxSouza/PromptableDeTR/raw/main/figs/promptabledetr_logo.gif",
+                "https://github.com/MTxSouza/PromptableDeTR/raw/main/figs/example0.png",
+                "https://github.com/MTxSouza/PromptableDeTR/raw/main/figs/example1.png",
+                "https://github.com/MTxSouza/PromptableDeTR/raw/main/figs/example2.png",
+                "https://github.com/MTxSouza/PromptableDeTR/raw/main/figs/example3.png",
+                "https://github.com/MTxSouza/PromptableDeTR/raw/main/figs/example4.png"
             ],
             "videos": []
         },
